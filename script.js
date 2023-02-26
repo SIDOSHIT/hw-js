@@ -42,48 +42,31 @@
 
 // 5
 // const monthNumber = 8;
-
 // switch (monthNumber) {
 //     case 12:
-//         console.log('Зима');
-//         break;
 //     case 1:
-//         console.log('Зима');
-//         break;
 //     case 2:
 //         console.log('Зима');
 //         break;
-//     case 3, 4, 5:
-//         console.log('Весна');
-//         break;
+//     case 3:
 //     case 4:
-//         console.log('Весна');
-//         break;
 //     case 5:
 //         console.log('Весна');
 //         break;
 //     case 6:
-//         console.log('Лето');
-//         break;
 //     case 7:
-//         console.log('Лето');
-//         break;
 //     case 8:
 //         console.log('Лето');
 //         break;
 //     case 9:
-//         console.log('Осень');
-//         break;
 //     case 10:
-//         console.log('Осень');
-//         break;
 //     case 11:
 //         console.log('Осень');
 //         break;
-
 //     default: console.log('Такого месяца не существует');
 //         break;
 // }
+
 
 // 6
 // https://github.com/SIDOSHIT/2-nd_course-hw/pull/5
@@ -92,7 +75,10 @@
 // 7
 // let randomNum = prompt('Пожалуйста, введите любое число');
 
-// console.log(!isNaN(randomNum))
+// if (!isNaN(randomNum)) { 
+//     console.log(randomNum)
+// }
+
 
 // if (randomNum % 1 == 0 && randomNum % 2 != 0) {
 //     alert('Число не четное')
