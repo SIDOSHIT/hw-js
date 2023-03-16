@@ -97,20 +97,21 @@
 
 
 // 5
-function calling() {
-    console.log('Звоню!')
-};
+// function calling() {
+//     console.log('Звоню!')
+// };
 
-function beeps() {
-    setTimeout(() => {
-        console.log('Идут гудки...')
-    }, 1000);
-}
+// function beeps(callback) {
+//     setTimeout(() => {
+//         console.log('Идут гудки...');
+//         return talk();
+//     }, 1000);
+// }
 
-function talk() {
-    console.log('Разговор')
-}
+// function talk() {
+//     console.log('Разговор')
+// }
 
-calling();
-beeps();
-talk();
+// calling();
+// beeps();
+// // talk();
